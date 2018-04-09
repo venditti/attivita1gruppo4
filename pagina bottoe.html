@@ -1,0 +1,25 @@
+<html>
+<head><center><titile>CLICCA IL BOTTONE</title></center></head>
+<body>
+<form id="form1" name="form1">
+<center>
+<br>
+<br>
+<input type="button" value="ESEGUI" onclick="bottone()"/>
+</center>
+</form>
+<script type="text/javascript">
+
+function bottone() {
+var i;
+
+for(i=0;i<16;i++)
+ {
+   var x=i*i;
+   document.write(+x+"<br>"); }
+
+document.write("FINE");
+}
+</script>
+</body>
+</html>
